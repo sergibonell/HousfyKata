@@ -40,10 +40,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Robot Framework.run [Add All Products].executor": "Run",
+    "Robot Framework.run [Add All Productsx].executor": "Run",
     "Robot Framework.run [Add Product From Detail].executor": "Run",
     "Robot Framework.run [Add Product To Cart].executor": "Run",
     "Robot Framework.run [Empty Login].executor": "Run",
     "Robot Framework.run [Empty Password].executor": "Run",
+    "Robot Framework.run [Empty User Login].executor": "Run",
     "Robot Framework.run [Invalid User].executor": "Run",
     "Robot Framework.run [Locked User].executor": "Run",
     "Robot Framework.run [Login known users 1].executor": "Run",
@@ -55,6 +58,11 @@
     "Robot Framework.run [Login known users].executor": "Run",
     "Robot Framework.run [Reach page successfully].executor": "Run",
     "Robot Framework.run [Successful Login].executor": "Run",
+    "Robot Framework.run [Test Alphabetical Ordering].executor": "Run",
+    "Robot Framework.run [Test Ordering Modes].executor": "Run",
+    "Robot Framework.run [Test Price Ordering].executor": "Run",
+    "Robot Framework.run [Test Reverse Price Ordering].executor": "Run",
+    "Robot Framework.run [Test ZA Ordering].executor": "Run",
     "Robot Framework.run [Test].executor": "Run",
     "Robot Framework.run current file.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",

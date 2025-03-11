@@ -2,7 +2,8 @@
 Documentation   Resource file for the login page tests.
 Library     SeleniumLibrary
 Library     DateTime
-Library    OperatingSystem
+Library     Collections
+Library     String
 
 *** Keywords ***
 Open Login Page
@@ -29,7 +30,7 @@ Open Shopping Cart
 
 Check Item Cart
     [Arguments]     ${name}
-    Page Should Contain Element    xpath: //div[@class='inventory_item_name'][text()="${name}"]
+    Page Should Contain Element    xpath: //div[@class='inventory_item_name'][text()="${name}"]     message=${name} wasn't found in the shopping cart.
 
 Open Product Detail
     [Arguments]     ${name}
@@ -37,3 +38,7 @@ Open Product Detail
     
 Add Product Detail
     Click Button    //div[@class="inventory_details_desc_container"]/button
+
+Back To Inventory
+    Click Button    continue-shopping
+    Wait For Condition    return document.readyState == "complete"  2   Page failed to load.
