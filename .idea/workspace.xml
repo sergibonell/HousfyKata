@@ -1,21 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="114be322-5d48-4aea-9d01-2252ec6c9014" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Login.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keywords.resource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutomationTests.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManualReports.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/geckodriver-1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keywords.resource" beforeDir="false" afterPath="$PROJECT_DIR$/keywords.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/log/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2u8HuJbuHtccMTnLkM3qevc6biV" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -24,14 +52,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Robot Framework.run current file.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Robot Framework.run [Empty Login].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Empty Password].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Invalid User].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Locked User].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login known users 1].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login known users 2].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login known users 3].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login known users 4].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login known users 5].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login known users 6].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login known users].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Reach page successfully].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Successful Login].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Test].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run current file.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sergi\PycharmProjects\HousfyKata" />
+      <recent name="C:\Users\Sergi\PycharmProjects\HousfyKata\o" />
+      <recent name="C:\Users\Sergi\PycharmProjects\HousfyKata\Login" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -49,5 +98,16 @@
       <updated>1741623502207</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

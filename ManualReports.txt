@@ -1,0 +1,10 @@
+(001) Incorrect error message container size
+    1. Go to the login page
+    2. Input an invalid pair of user and password credentials
+    3. Click on the "Login" button
+
+    Expected result: The error message container adjusts its size to the contents
+    Actual result: The text from the error is cut off on the top and bottom
+
+    Notes: Only happens if the window width is 900px or more
+
