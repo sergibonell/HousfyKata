@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="114be322-5d48-4aea-9d01-2252ec6c9014" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AutomationTests.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ManualReports.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/geckodriver-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/selenium-screenshot-9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keywords.resource" beforeDir="false" afterPath="$PROJECT_DIR$/keywords.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/log/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManualReports.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ManualReports.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

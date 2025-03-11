@@ -8,3 +8,191 @@
 
     Notes: Only happens if the window width is 900px or more
 
+
+(002) Empty checkout
+    1. Go to the login page
+    2. Login with the username "standard_user" and password "secret_sauce"
+    3. Click on the shopping cart and "Checkout"
+    4. Fill the information fields with any data
+    5. Click on "Continue" and "Finish"
+
+    Expected result: You shouldn't be able to check out with an empty shopping cart
+    Actual result: The checkout is completed as usual, without any products
+
+
+(003) Incorrect product thumbnail
+    1. Go to the login page
+    2. Login with the username "problem_user" and password "secret_sauce"
+
+    Expected result: Each product has its own unique image, corresponding to the product
+    Actual result: All the products have the same placeholder picture of a dog
+
+
+(004) Unresponsive "Add to cart" buttons
+    1. Go to the login page
+    2. Input the username "problem_user" or "error_user"
+    3. Login with the password "secret_sauce"
+    4. Click on the "Add to cart" button for any of the products: "Sauce Labs Bolt T-Shirt", "Sauce Labs Fleece Jacket" or "Test.allTheThings() T-Shirt (Red)"
+
+    Expected result: The item is added to the shopping cart
+    Actual result: The button is unresponsive, nothing changes when clicking
+
+
+(005) Unresponsive "Remove" buttons
+    1. Go to the login page
+    2. Input the username "problem_user" or "error_user"
+    3. Login with the password "secret_sauce"
+    4. Click on the "Add to cart" button for any of the products: "Sauce Labs Backpack", "Sauce Labs Bike Light" or "Sauce Labs Onesie"
+    5. Click on "Remove" button for any of the previous products
+
+    Expected result: The item is removed from the shopping cart
+    Actual result: The button is unresponsive, nothing changes when clicking
+
+    Notes: The items can be removed from the shopping cart page
+
+
+(006) Unresponsive product filters
+    1. Go to the login page
+    2. Login with the username "problem_user" and password "secret_sauce"
+    3. Change the ordering mode of products to any of the other ones
+
+    Expected result: The ordering mode changes and the products are re-ordered
+    Actual result: The ordering mode doesn't change and the products stay the same
+
+
+(007) Error product filters
+    1. Go to the login page
+    2. Login with the username "error_user" and password "secret_sauce"
+    3. Change the ordering mode of products to any of the other ones
+
+    Expected result: The ordering mode changes and the products are re-ordered
+    Actual result: The following error appears "Sorting is broken! This error has been reported to Backtrace."
+
+
+(008) "Last Name" field wrong input
+    1. Go to the login page
+    2. Login with the username "problem_user" and password "secret_sauce"
+    3. Click on the shopping cart and "Checkout"
+    4. Try to type in the "Last Name" field
+
+    Expected result: Whatever you type is shown in the text field
+    Actual result: The "Last Name" field remains empty and the "First Name" field is filled with the last character typed
+
+
+(009) "Last Name" field no input
+    1. Go to the login page
+    2. Login with the username "error_user" and password "secret_sauce"
+    3. Click on the shopping cart and "Checkout"
+    4. Try to type in the "Last Name" field
+
+    Expected result: Whatever you type is shown in the text field
+    Actual result: The "Last Name" field remains empty
+
+
+(010) Log in performance issue
+    1. Go to the login page
+    2. Login with the username "performance_glitch_user" and password "secret_sauce"
+
+    Expected result: The inventory page loads in a reasonable amount of time
+    Actual result: The login page freezes and takes >5 seconds to load into the inventory
+
+
+(011) "Last Name" field wrong input
+    1. Go to the login page
+    2. Login with the username "error_user" and password "secret_sauce"
+    3. Click on the shopping cart and "Checkout"
+    4. Fill in the "First Name" and "Zip/Postal Code" fields
+    5. Press the "Continue" button
+
+    Expected result: An error with the message "Last Name is required" pops up
+    Actual result: The checkout is completed as usual
+
+
+(012) Unresponsive checkout "Finish" button
+    1. Go to the login page
+    2. Login with the username "error_user" and password "secret_sauce"
+    3. Click on the shopping cart and "Checkout"
+    4. Fill in the "First Name" and "Zip/Postal Code" fields
+    5. Press the "Continue" button
+    6. Press the "Finish" button
+
+    Expected result: The checkout is completed as usual
+    Actual result: The button is unresponsive, nothing happens when clicking
+
+
+(013) Incorrect product thumbnail
+    1. Go to the login page
+    2. Login with the username "visual_user" and password "secret_sauce"
+
+    Expected result: The thumbnail picture for the first product matches the product name
+    Actual result: The thumbnail picture for the first product is incorrect, regardless of the sorting mode
+
+
+(014) Incorrect product price
+    1. Go to the login page
+    2. Login with the username "visual_user" and password "secret_sauce"
+    3. Click on any of the products
+
+    Expected result: The prices from the product preview is the same as the product detail
+    Actual result: The prices from the inventory page are randomized and don't match the detail
+
+
+(015) Moved shopping cart icon
+    1. Go to the login page
+    2. Login with the username "visual_user" and password "secret_sauce"
+
+    Expected result: The shopping cart icon appears in the top-right corner
+    Actual result: The shopping cart icon is moved and appears above the filter funnel icon
+
+
+(016) Moved "Checkout" button
+    1. Go to the login page
+    2. Login with the username "visual_user" and password "secret_sauce"
+    3. Click on the shopping cart
+
+    Expected result: The "Checkout" button appears lined up to the "Continue shopping" button but to the right
+    Actual result: The "Checkout" button appears in the top-right corner of the page
+
+
+(017) Moved "Add to cart"/"Remove" button
+    1. Go to the login page
+    2. Login with the username "visual_user" and password "secret_sauce"
+
+    Expected result: The "Add to cart"/"Remove" button for the last product is the same as the others
+    Actual result: The "Add to cart"/"Remove" button for the last product is outside the box
+
+
+(018) Product title alignment
+    1. Go to the login page
+    2. Login with the username "visual_user" and password "secret_sauce"
+
+    Expected result: All the product names are aligned to the left
+    Actual result: The products from the second row have their titles aligned to the right
+
+
+(019) Product not found
+    1. Go to the login page
+    2. Login with the username "problem_user" and password "secret_sauce"
+    3. Click on the product "Sauce Labs Fleece Jacket"
+
+    Expected result: The detail page for the product is open
+    Actual result: The detail page shows "ITEM NOT FOUND"
+
+
+(020) Broken shopping cart page
+    1. Go to the login page
+    2. Login with the username "problem_user" and password "secret_sauce"
+    3. Click on the product "Sauce Labs Fleece Jacket"
+    4. Click on "Add to cart"
+
+    Expected result: The detail page for the product is open
+    Actual result: The detail page shows "ITEM NOT FOUND"
+
+
+(021) Product detail mismatch
+    1. Go to the login page
+    2. Login with the username "problem_user" and password "secret_sauce"
+    3. Click on any of the products other than the "Sauce Labs Fleece Jacket"
+
+    Expected result: The product detail page matches the product in the preview
+    Actual result: The product detail shows a different product
